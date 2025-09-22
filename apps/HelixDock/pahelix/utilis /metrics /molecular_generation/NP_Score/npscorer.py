@@ -14,21 +14,7 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-"""
-calculation of natural product-likeness as described in:
 
-Natural Product-likeness Score and Its Application for Prioritization of
-Compound Libraries
-Peter Ertl, Silvio Roggo, and Ansgar Schuffenhauer
-Journal of Chemical Information and Modeling, 48, 68-74 (2008)
-http://pubs.acs.org/doi/abs/10.1021/ci700286x
-
-for the training of this model only openly available data have been used
-~50,000 natural products collected from various open databases
-~1 million drug-like molecules from ZINC as a "non-NP background"
-
-peter ertl, august 2015
-"""
 
 
 
