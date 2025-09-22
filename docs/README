@@ -1,61 +1,67 @@
-# Profold 🔬✨
-**AI-Powered Protein Folding & Molecular Modeling Framework**
+Profold 🔬✨  
+AI-Powered Protein Folding & Molecular Modeling Framework  
 
----
+GitHub: https://github.com/kantkrishan0206-crypto/profold  
 
-## 📦 Release Info
-- **Release Version**: v1.0.0  
-- **Python Version**: 3.8+  
-- **Supported OS**: Windows, Linux, macOS  
+------------------------------------------------------------
 
----
+📦 Release Info  
+Release Version: v1.0.0  
+Python Version: 3.8+  
+Supported OS: Windows, Linux, macOS  
 
-## ⚙️ Installation
+------------------------------------------------------------
 
-### Requirements
+⚙️ Installation  
+
+Requirements:  
 - Python 3.8, 3.9, or 3.10  
 - Common scientific libraries (NumPy, SciPy, PyTorch/TensorFlow as backend)  
 
-### Quick Start
-Install Profold with pip:
-```bash
-pip install profold
+Quick Start:  
+Install Profold with pip:  
+pip install profold  
 
+Or install from source:  
+git clone https://github.com/kantkrishan0206-crypto/profold.git  
+cd profold  
+pip install -r requirements.txt  
 
+------------------------------------------------------------
 
-git clone https://github.com/kantkrishan0206-crypto/profold.git
-cd profold
-pip install -r requirements.txt
+📘 Tutorials  
 
-📘 Tutorials
+We provide hands-on tutorials to help you get started with Profold quickly:  
+- Protein Folding & Structure Prediction  
+- Molecular Docking  
+- Drug–Target Interaction Modeling  
+- RNA Secondary Structure Learning  
+- Virtual Screening Pipelines  
 
-We provide hands-on tutorials to help you get started with Profold quickly:
-Protein Folding & Structure Prediction
-Molecular Docking
-Drug–Target Interaction Modeling
-RNA Secondary Structure Learning
-Virtual Screening Pipelines
+------------------------------------------------------------
 
+🔬 Examples  
 
-# Run protein structure prediction
-python examples/protein_prediction.py --input sequence.fasta --output result.pdb
+Run protein structure prediction:  
+python examples/protein_prediction.py --input sequence.fasta --output result.pdb  
 
-# Run drug-target docking
-python examples/docking.py --protein target.pdb --ligand ligand.sdf 
+Run drug-target docking:  
+python examples/docking.py --protein target.pdb --ligand ligand.sdf  
 
-👨‍💻 Developer Guide
+------------------------------------------------------------
 
-If you want to extend or modify Profold, check out our Developer Guide
-.
+👨‍💻 Developer Guide  
+If you want to extend or modify Profold, check out our Developer Guide.  
 
-🤝 Contribution
+------------------------------------------------------------
 
-We welcome contributions!
-Please open issues or pull requests on our official repo:
-👉 Profold GitHub
+🤝 Contribution  
+We welcome contributions!  
+Please open issues or pull requests on our official repo:  
+👉 Profold GitHub: https://github.com/kantkrishan0206-crypto/profold  
 
+------------------------------------------------------------
 
-📜 License
-
-This project is licensed under the MIT License.
-You are free to use, modify, and distribute with attribution.
+📜 License  
+This project is licensed under the MIT License.  
+You are free to use, modify, and distribute with attribution.  
