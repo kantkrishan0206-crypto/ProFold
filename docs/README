@@ -3,14 +3,13 @@ AI-Powered Protein Folding & Molecular Modeling Framework
 
 GitHub: https://github.com/kantkrishan0206-crypto/profold  
 
-------------------------------------------------------------
 
 📦 Release Info  
 Release Version: v1.0.0  
 Python Version: 3.8+  
 Supported OS: Windows, Linux, macOS  
 
-------------------------------------------------------------
+
 
 ⚙️ Installation  
 
@@ -27,7 +26,6 @@ git clone https://github.com/kantkrishan0206-crypto/profold.git
 cd profold  
 pip install -r requirements.txt  
 
-------------------------------------------------------------
 
 📘 Tutorials  
 
@@ -38,7 +36,7 @@ We provide hands-on tutorials to help you get started with Profold quickly:
 - RNA Secondary Structure Learning  
 - Virtual Screening Pipelines  
 
-------------------------------------------------------------
+
 
 🔬 Examples  
 
@@ -48,19 +46,19 @@ python examples/protein_prediction.py --input sequence.fasta --output result.pdb
 Run drug-target docking:  
 python examples/docking.py --protein target.pdb --ligand ligand.sdf  
 
-------------------------------------------------------------
+
 
 👨‍💻 Developer Guide  
 If you want to extend or modify Profold, check out our Developer Guide.  
 
-------------------------------------------------------------
+
 
 🤝 Contribution  
 We welcome contributions!  
 Please open issues or pull requests on our official repo:  
 👉 Profold GitHub: https://github.com/kantkrishan0206-crypto/profold  
 
-------------------------------------------------------------
+
 
 📜 License  
 This project is licensed under the MIT License.  
