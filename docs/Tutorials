@@ -1,0 +1,80 @@
+Profold Tutorials 📘
+Table of Contents
+
+Background
+
+Navigating Profold
+
+Tutorials
+
+Run Tutorials Locally
+
+Background
+
+Machine learning (ML), especially deep learning (DL), is becoming increasingly important in bioinformatics and computational biology. For example:
+
+DL-based methods can predict drug–target interactions and molecular properties efficiently, which previously required expensive in vitro/in vivo experiments or computationally intensive simulations.
+
+In silico protein folding, RNA folding, and other structural predictions are now more feasible using deep neural models.
+
+ML and DL improve efficiency, reduce cost, and accelerate drug discovery, vaccine design, and molecular research.
+
+A key challenge in adopting DL is the limited availability of annotated data. Pre-training with self-supervised learning on large unlabeled datasets has proven highly effective in natural language processing and computer vision. Similarly, in molecular representation learning, we have:
+
+Protein sequences: over 100 million
+
+Compounds: over 50 million
+
+Annotated datasets: relatively small
+
+Profold leverages pre-training techniques to learn universal representations of chemical compounds, proteins, RNA, and more, bridging the gap between large unlabeled datasets and limited annotated data.
+
+Navigating Profold
+
+Profold is a high-performance ML-based bio-computing framework. It features:
+
+Large-scale representation learning for proteins, RNA, and molecules
+
+Easy-to-use APIs for researchers and engineers
+
+State-of-the-art AI tools for molecular modeling and drug discovery
+
+Tutorials
+Predicting Drug–Target Interactions
+
+GraphDTA
+
+MolTrans
+
+Compound Representation Learning and Property Prediction
+
+Learn molecular embeddings
+
+Predict chemical properties
+
+Protein Representation Learning and Property Prediction
+
+Predict protein properties and functions
+
+Use sequence and structure embeddings
+
+Molecular Generation
+
+Generate novel compounds using DL-based models
+
+Predicting RNA Secondary Structure
+
+Use Profold models to predict RNA secondary structures efficiently
+
+Run Tutorials Locally
+
+All tutorials can be run locally using Python scripts provided in the examples/ directory:
+
+# Example: Protein folding prediction
+python examples/protein_prediction.py --input sequence.fasta --output result.pdb
+
+# Example: Drug-target docking
+python examples/docking.py --protein target.pdb --ligand ligand.sdf
+
+
+Each tutorial includes step-by-step instructions and sample data to get started quickly.
